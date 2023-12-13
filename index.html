@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda de la Aplicación</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Ayuda de la Aplicación Registro Ejercicios</h1>
+    </header>
+
+    <nav>
+        <a href="#seccion1">Usuarios</a>
+        <a href="#seccion2">Registros</a>
+        <a href="#seccion3">Ejericicios</a>
+        <a href="#seccion4">Busquedas</a>
+    </nav>
+
+    <section id="seccion1">
+        <h2>Usuarios</h2>
+        <img src="imagenes/Usuarios.png" alt="pestaña usuarios">
+        <h3>Barra de iconos:</h3> 
+        <p>(De derecha a izquierda) <br>
+            <b>Usuario</b> (Alt + 1): lleva a la ventana Usuarios. ( O pulsando sobre pestaña Usuarios) <br>
+            <b>Registros</b> (Alt +2): lleva a la ventana Registros ( O pulsando sobre pestaña Registros) <br>
+            <b>Ejercicios</b> (Alt + 3): lleva a la ventana Ejercicios ( O pulsando sobre pestaña Ejercicios)<br>
+            <b>Buscar</b> (Alt + 4): lleva a la ventana Buscar ( O pulsando sobre pestaña buscar) <br>
+            <b>Salir</b> (Alt + x): sale de la aplicación, al pulsarlo aparece una ventana modal con el mensaje: ¿Desea 
+            salir del programa? Aceptar o Cancelar<br>
+            <b>Salir de sesión</b>(ctrl + L) (solo aparece si la sesión está abierta), al pulsarlo sale una ventana modal 
+            con el mensaje ¿Desea cerrar sesión de usuario? Aceptar o Cancelar <br>
+            <b>Pagina Información</b> (ctrl + i) lleva a una pagina ajena a la aplicación con información de utilización 
+            de la misma.</p>
+            <h3>Botoneras:</h3> ( De abajo a arriba) <br>
+            <b>Añadir usuario</b> ( ctrl + Enter): único botón utilizable en este momento, rellenar campos y pulsar 
+            botón, al pulsarlo sale ventana modal de mensaje ¿Desea añadir Usuario? Aceptar o Cancelar, 
+            depende del resultado aparece otra ventana modal para el éxito de la operación, Aceptar, o Error de 
+            la operación, Aceptar.<br>
+            <h3>Seleccionar Usuario:</h3> 
+            Doble click sobre un usuario registrado correctamente aparece en la lista de 
+            abajo de Usuarios. Al hacerlo se abrirá una ventana modal emergente solicitando la contraseña del 
+            usuario, Aceptar o Cancelar, según el resultado aparece una ventana de éxito o de error, Aceptar. <br>
+            Si la acción tuvo éxito, se iniciará sesión y el usuario será cargado apareciendo sus datos en la zona 
+            de arriba (Editar Usuario) 
+            El botón añadir usuario quedará inutilizable y se activarán los botones Borrar Usuario, Actualizar 
+            Usuario, Cerrar Sesión.<br>
+            <b>Borrar Usuario</b> (ctrl + delete) Al pulsarlo llevara a una ventana emergente modal que pregunta 
+            ¿Desea borrar usuario? Aceptar o Cancelar y depende del resultado aparece nueva ventana 
+            emergente confirmado o no el éxito de la tarea, Aceptar. <br>
+            <b>Actualizar Usuario</b> (Ctrl + U) Al pulsarlo llevara a una ventana emergente modal que pregunta 
+            ¿Desea actualizar usuario? Aceptar o Cancelar y depende del resultado aparece nueva ventana 
+            emergente confirmado o no el éxito de la tarea, Aceptar. <br>
+            <b>Cerrar sesión</b> (Ctrl + L): Al pulsarlo lleva a una ventana modal que pregunta ¿Desea cerrar sesión 
+            de usuario? Aceptar o cancelar, depende del resultado aparece nueva ventana emergente 
+            confirmando o no el éxito de la tarea, Aceptar.
+            <h3>Filtros:</h3>
+            Para buscar entre los usuarios, ya sea por comodidad del atleta para encontrar su usuario o por si el 
+            club quiere hacer búsquedas especificas de atletas la aplicación dispone de 5 filtros, <u>DNI, nombre 
+            Usuario, fecha de nacimiento, altura y genero.</u> <br>
+            El funcionamiento de los filtros es automático, no dispone de ningún botón de confirmación en 
+            cuanto se van rellenando los campos va haciendo búsquedas con la información en ellos.<br>
+            Puede utilizarse tanto por un filtro como por varios a la vez.<br>
+            La pestaña desplegable Genero aparte de las tres opciones disponibles, también dispone de una 
+            opción sin información para que en el caso que todos los filtros estén en blanco pueda mostrar la 
+            lista de usuarios completa.
+            <h3>Pestañas desplegables:</h3>
+            <b>Genero:</b> Con opciones Masculino, femenino, no binario.
+
+    </section>
+
+    <section id="seccion2">
+        <h2>Registros</h2>
+        <img src="imagenes/Registros.png" alt="pestaña registros">
+        <p><h3>Barra de iconos:</h3> (misma información que en usuarios) <br>
+           <h3>Selección de registro:</h3> (misma procedimiento que en usuarios) <br>
+            <h3>Botoneras:</h3> (mismo funcionamiento a excepción de botón cerrar sesión que cambia por Desmarcar 
+            registro)<br>
+            <b>Desmarcar registro</b> (Ctrl + D): Si se tiene de antemano un registro cargado (se puede ver el id y 
+            todos los datos en la zona “editar registro” y los 3 botones tanto “desmarcar registro” como 
+            “actualizar registro” como “borrar registro” están seleccionables y el botón “añadir registro” esta 
+            inutilizable) se puede desmarcar pulsando el botón, aparece una ventana modal preguntado ¿desea 
+            deseleccionar el registro actual? Aceptar o cancelar, dependiendo del éxito o no de la operación 
+            aparecerá una ventana dando la información, aceptar.<br>
+            <h3>Filtros:</h3> (mismo funcionamiento que en usuarios, a excepción que solo dispone de dos filtros, 
+            nombre ejercicio que es una pestaña desplegable y fecha) <br>
+            <h3>Pestañas desplegables:</h3>
+            <b>Nombre Ejercicios:</b> Con todos los ejercicios que están en la lista de ejercicios.<br>
+            <b>Éxito:</b> con dos opciones Si o No.</p>
+    </section>
+
+    <section id="seccion3">
+        <h2>Ejercicios</h2>
+        <img src="imagenes/Ejercicios.png" alt="Pestaña ejercicios">
+        <p> <h3>Barra de iconos:</h3> (misma información que en registros)
+            <h3>Selección de registro:</h3> (misma procedimiento que en registros)
+            <h3>Botoneras:</h3> (mismo funcionamiento que en registros con la excepción de los siguientes botones)
+            subir imagen: Uno de los datos a subir es la imagen del ejercicio al pulsar el botón te lleva a una 
+            ventana modal para subir la imagen como la de Windows, Aceptar o Cancelar, que dependiendo del 
+            éxito o no de la operación aparecerá otra ventana modal para confirmarlo, Aceptar.<br>
+            Ampliar imagen: al darle doble click al campo de la imagen, aparece la imagen en tamaño más 
+            grande, mientras el puntero permanezca encima de la imagen no desaparecerá.<br>
+            Ampliar descripción: al darle doble click al campo de la descripción aparecerá en un tamaño más 
+            grande y legible, mientras el puntero permanezca encima de la descripción no desaparecerá.<br>
+            <h3>Filtros:</h3> (mismo funcionamiento, dispone de cuatro filtros, nombre, grupo muscular, tipo, área)
+            <h3>Pestañas desplegables:</h3>
+            <b>tipo:</b> push, pull <br>
+            <b>área:</b> Superior, inferior, core <br>
+            <b>grupo muscular:</b> pectoral, dorsal, multiarticular, deltoides, glúteos, cuádriceps, isquiotibiales, 
+            abdominales, pantorrilla, bíceps, tríceps, flexores, extensores.</p>
+    </section>
+
+    <section id="seccion4">
+        <h2>Busquedas</h2>
+        <img src="imagenes/Busquedas.png" alt="Pestaña Busquedas">
+        <p> <h3>Dos tipos de búsquedas:</h3>
+            Registros diarios: con filtro fecha para que aparezca la lista de los ejercicios realizados en un día, se
+            pide solo la fecha aunque los ejercicios se registran automáticamente por fecha y hora de la 
+            inserción para que salgan ordenados al realizar esta búsqueda.<br>
+            <b>Registros históricos:</b> Con dos filtros criterios de búsqueda (lista desplegable) y ejercicio (lista 
+            desplegable), en está búsqueda si es necesario que los dos filtros estén activados para que empiece 
+            la búsqueda automáticamente.<br>
+            <h3>Pestaña desplegables:</h3>
+            <b>Criterios de búsqueda:</b> PesoLevantado, Repeticiones, pesoUsuario, Éxito, Fallo.<br>
+            <b>Ejercicio:</b> Todos los ejercicios que estén en la lista de ejercicios. <br>
+            <h3>Resto:</h3>
+            Igual que en las otras ventanas. <br>
+            <br>
+            </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Registro de Ejercicios Morillas S.A.</p>
+    </footer>
+</body>
+</html>
